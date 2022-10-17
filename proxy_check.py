@@ -76,7 +76,7 @@ def backup():
     except Exception:
         pass
 
-    print('', file=open('GoodProxy.txt', 'w'))
+    print('208.78.250.69:8111', file=open('GoodProxy.txt', 'w'))
 
 
 def clean_exe_temp(folder):
